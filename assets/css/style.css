@@ -12,7 +12,6 @@ body {
 }
 header {
     height: 80px;
-    background-color: #000;
     color: #fff;
     margin: auto;
     display: flex;
@@ -61,7 +60,8 @@ header .menu nav > ul > li > a:hover {
     color: #fff;
 }
 main .banner {
-    height: calc(100vh - 80px);
+    height: 100vh;
+    margin-top: -80px;
     background-color: #333;
     background-image: url('../images/bg.jpg');
     background-size: cover;
@@ -104,7 +104,8 @@ main .banner {
 .carousel.slide .carousel-inner .carousel-item {
     width: 100vw;
     height: 100%;
-    display: inline-block;
+    display: block;
+    float: left;
     background-color: rgba(0, 0, 0, 0.8);
 }
 .carousel.slide .carousel-inner .carousel-item .slider-area {
@@ -119,7 +120,7 @@ main .banner {
     text-transform: uppercase;
     font-size: 50px;
     font-weight: bold;
-    margin-top: -100px;
+    margin-top: -50px;
     margin-bottom: 10px;
     text-align: center;
 }
@@ -131,7 +132,8 @@ main .banner {
     margin-bottom: 30px;
 }
 .btn {
-    display: block;
+    width: fit-content;
+    display: inline-block;
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 600;
@@ -140,6 +142,48 @@ main .banner {
 }
 .btn-primary {
     background-color: #b28756;
+    color: #fff;
+}
+
+section.section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+section.section .container {
+    display: flex;
+    flex-direction: column;
+}
+section.section .section-header .title,
+section.section .section-header .desc {
+    text-align: center;
+    text-transform: uppercase;
+}
+section.section .section-header .title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+section.section .section-header .desc {
+    font-size: 10px;
+    font-weight: 600;
+    margin-bottom: 40px;
+    color: #b1aeae;
+}
+section.section .section-body {
+    margin: auto;
+}
+section.section.light {
+    background-color: #f7f7f7;
+}
+section.section.light .section-header .title,
+section.section.light .section-body {
+    color: #000;
+}
+section.section.dark {
+    background-color: #000;
+}
+section.section.dark .section-header .title,
+section.section.dark .section-body {
     color: #fff;
 }
 
@@ -153,3 +197,55 @@ main .banner {
 .d-none {
     display: none;
 }
+
+
+/* About */
+#about-us .section-body {
+    display: flex;
+}
+#about-us .section-body .aboutus--left {
+    flex: 1;
+}
+#about-us .section-body .aboutus--left p {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+#about-us .section-body .aboutus--right {
+    width: 500px;
+    text-align: center;
+
+}
+#about-us .section-body .aboutus--right img {
+    width: 400px;
+    box-shadow: 0 5px 10px #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
