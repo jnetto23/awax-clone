@@ -207,6 +207,7 @@ section.section.dark .section-body {
     flex: 1;
 }
 #about-us .section-body .aboutus--left p {
+    font-size: 14px;
     line-height: 20px;
     margin-bottom: 20px;
 }
@@ -220,6 +221,30 @@ section.section.dark .section-body {
     box-shadow: 0 5px 10px #333;
 }
 
+#services .section-body {
+    display: flex;
+}
+#services .section-body .service {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    border-left: 1px solid #333;
+}
+#services .section-body .service:last-child {
+    border-right: 1px solid #333;
+}
+#services .section-body .service img {
+    width: 60px;
+    height: auto;
+    margin-bottom: 10px;
+}
+#services .section-body .service h4 {
+    text-transform: uppercase;
+    margin: 5px auto;
+}
+#services .section-body .service p {
+    color: #999;
+}
 
 
 
