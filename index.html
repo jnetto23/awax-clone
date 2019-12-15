@@ -37,7 +37,7 @@
     <main>
         <!-- Banner -->
         <section class="banner">
-            <div id="carousel" class="carousel slide" data-ride="carousel">
+            <div id="carousel" class="carousel slide">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <div class="slider-area">
@@ -241,7 +241,7 @@
                     <div id="carousel-team" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="container">
-                                <div class="carousel-item active">
+                                <div class="carousel-item">
                                     <div class="card">
                                         <div class="info">
                                             <img src="./media/mulher1.png" alt="">
@@ -271,7 +271,7 @@
                                     <div class="card">
                                         <div class="info">
                                             <img src="./media/homem1.png" alt="">
-                                            <h5>John Doe</h5>
+                                            <h5>Mike Shiller</h5>
                                             <span>Creative head</span>
                                         </div>
                                         <div class="c-sn">
@@ -363,13 +363,39 @@
                     <h3 class="desc">client reviews</h3>
                 </div>
                 <div class="section-body">
-                    ...
+                    <div id="carousel-happy-clients" class="carousel slider">
+                        <div class="container">
+                        <div class="carousel-inner">
+                            <div class="carousel-item">
+                                <div class="card-depoiment">
+                                    <div class="info">
+                                        <img src="./media/homem2.png" alt="">
+                                        <h5>John Doe</h5>
+                                        <span>Head of PR Departament</span>
+                                    </div>
+                                    <img src="./assets/images/quote.png" alt="">
+                                    <p class="depoiment">
+                                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium atque officia voluptas voluptate, eius officiis sint enim maiores facilis nam eligendi ipsa natus assumenda a quis illum explicabo quo tenetur?Sapiente itaque, a fugiat natus consectetur quidem dicta totam odio quos provident aliquam quas nostrum illum fuga similique, aspernatur optio dolorum quia dolorem? Facere quaerat, voluptates iste ducimus qui quas.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-indicators"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
-        <section class="section">
+        <section id="clients">
             <div class="container">
-                ...
+                <div class="brands">
+                    <img src="./media/empresa1.png" alt="">
+                    <img src="./media/empresa2.png" alt="">
+                    <img src="./media/empresa3.png" alt="">
+                    <img src="./media/empresa4.png" alt="">
+                    <img src="./media/empresa5.png" alt="">
+                    <img src="./media/empresa6.png" alt="">
+                </div>
             </div>
         </section>
         <!-- Price -->
@@ -380,7 +406,74 @@
                     <h3 class="desc">pricing table</h3>
                 </div>
                 <div class="section-body">
-                    ...
+                    <div class="card">
+                        <h5 class="title">Express</h5>
+                        <span class="price">$ 9.99</span>
+                        <span class="period">/ month</span>
+                        <div class="desc">
+                            <span>Tracking issues</span>
+                            <small class="divider">-</small>
+                            <span>Add bugs through email</span>
+                            <small class="divider">-</small>
+                            <span>Notifications</span>
+                            <small class="divider">-</small>
+                            <span>Time tracking</span>
+                            <small class="divider">-</small>
+                            <span>Custons views</span>
+                        </div>
+                        <button>choose</button>
+                    </div>
+                    <div class="card">
+                        <h5 class="title">standart</h5>
+                        <span class="price">$ 14.99</span>
+                        <span class="period">/ month</span>
+                        <div class="desc">
+                            <span>Tracking issues</span>
+                            <small class="divider">-</small>
+                            <span>Add bugs through email</span>
+                            <small class="divider">-</small>
+                            <span>Notifications</span>
+                            <small class="divider">-</small>
+                            <span>Time tracking</span>
+                            <small class="divider">-</small>
+                            <span>Custons views</span>
+                        </div>
+                        <button>choose</button>
+                    </div>
+                    <div class="card">
+                        <h5 class="title">luxe</h5>
+                        <span class="price">$ 19.99</span>
+                        <span class="period">/ month</span>
+                        <div class="desc">
+                            <span>Tracking issues</span>
+                            <small class="divider">-</small>
+                            <span>Add bugs through email</span>
+                            <small class="divider">-</small>
+                            <span>Notifications</span>
+                            <small class="divider">-</small>
+                            <span>Time tracking</span>
+                            <small class="divider">-</small>
+                            <span>Custons views</span>
+                        </div>
+                        <button>choose</button>
+                    </div>
+                    <div class="card">
+                        <h5 class="title">Premium</h5>
+                        <span class="price">$ 24.99</span>
+                        <span class="period">/ month</span>
+                        <div class="desc">
+                            <span>Tracking issues</span>
+                            <small class="divider">-</small>
+                            <span>Add bugs through email</span>
+                            <small class="divider">-</small>
+                            <span>Notifications</span>
+                            <small class="divider">-</small>
+                            <span>Time tracking</span>
+                            <small class="divider">-</small>
+                            <span>Custons views</span>
+                        </div>
+                        <button>choose</button>
+                    </div>
                 </div>
             </div>
         </section>
@@ -391,8 +484,44 @@
                     <h2 class="title">Premium</h2>
                     <h3 class="desc">even more features available</h3>
                 </div>
-                <div class="section-body">
-                    ...
+                <div class="section-body d-flex">
+                    <div class="flex-1 text-end">
+                        <img class="m-auto" src="./media/livros.png" alt="">
+                    </div>
+                    <div class="flex-1">
+                        <div class="d-flex mb-2">
+                            <img class="align-self-start icon" src="./assets/images/check.png" alt="">
+                            <div class="d-flex flex-column">
+                                <h5 class="h5">first feature</h5>
+                                <small class="mb-1">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate dolores error molestiae unde dolore voluptas reprehenderit magnam id ratione illo quod dicta libero possimus ut, quia dignissimos debitis cum soluta!
+                                </small>
+                                <ul>
+                                    <li>Feature One</li>
+                                    <li>Feature Two</li>
+                                    <li>Feature Three</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-2">
+                            <img class="align-self-start icon" src="./assets/images/check.png" alt="">
+                            <div class="d-flex flex-column">
+                                <h5 class="h5">second feature</h5>
+                                <small>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate dolores error molestiae unde dolore voluptas reprehenderit magnam id ratione illo quod dicta libero possimus ut, quia dignissimos debitis cum soluta!
+                                </small>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-2">
+                            <img class="align-self-start icon" src="./assets/images/check.png" alt="">
+                            <div class="d-flex flex-column">
+                                <h5 class="h5">three feature</h5>
+                                <small>
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate dolores error molestiae unde dolore voluptas reprehenderit magnam id ratione illo quod dicta libero possimus ut, quia dignissimos debitis cum soluta!
+                                </small>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -404,13 +533,77 @@
                     <h3 class="desc">about our work</h3>
                 </div>
                 <div class="section-body">
-                    ...
+                    <div class="facts">
+                        <span class="count">1000</span>
+                        <small class="divider"></small>
+                        <h4>design projects released</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="facts">
+                        <span class="count">900</span>
+                        <small class="divider"></small>
+                        <h4>photos</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="facts">
+                        <span class="count">500</span>
+                        <small class="divider"></small>
+                        <h4>marketing ideas</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="facts">
+                        <span class="count">100</span>
+                        <small class="divider"></small>
+                        <h4>exhibitions</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
                 </div>
             </div>
         </section>
-        <section class="section">
-            <div class="container">
-                ...
+        <section class="btns-contact">
+            <div class="container d-flex justify-content-center align-items-center">
+                <img src="./assets/images/share.png" alt="">
+                <span>Tell about us:</span>
+                <div class="d-flex align-items-center">
+                    <div class="c-sn">
+                        <a href="#" class="btn-sn twitter" target="_black">
+                            <img src="./assets/images/twitter.png" alt="img twitter">
+                        </a>
+                    </div>
+                    <span>152</span>
+                </div>
+                <div class="d-flex align-items-center">
+                    <div class="c-sn">
+                        <a href="#" class="btn-sn linkdin" target="_black">
+                            <img src="./assets/images/linkedin.png" alt="">
+                        </a>
+                    </div>
+                    <span>31</span>
+                </div>
+                <div class="d-flex align-items-center">
+                    <div class="c-sn">
+                        <a href="#" class="btn-sn facebook" target="_black">
+                            <img src="./assets/images/facebook.png" alt="">
+                        </a>
+                    </div>
+                    <span>165</span>
+                </div>
+                <div class="d-flex align-items-center">
+                    <div class="c-sn">
+                        <a href="#" class="btn-sn googleplus" target="_black">
+                            <img src="./assets/images/googleplus.png" alt="">
+                        </a>
+                    </div>
+                    <span>22</span>
+                </div>
+                <div class="d-flex align-items-center">
+                    <div class="c-sn">
+                        <a href="#" class="btn-sn pinterest" target="_black">
+                            <img src="./assets/images/pinterest.png" alt="">
+                        </a>
+                    </div>
+                    <span>165</span>
+                </div>
             </div>
         </section>
         <!-- Contact Us -->
@@ -421,7 +614,15 @@
                     <h3 class="desc">our agency located in melbourne, australia</h3>
                 </div>
                 <div class="section-body">
-                    ...
+                    <form action="" class="d-flex flex-column justify-content-center align-items-center">
+                        <div class="d-flex">
+                            <input type="text" placeholder="NAME">
+                            <input type="email" placeholder="EMAIL">
+                        </div>
+                        <input type="text" placeholder="SUBJECT">
+                        <textarea placeholder="MESSAGE" cols="30" rows="1"></textarea>
+                        <button class="btn btn-primary">send message</button>
+                    </form>
                 </div>
             </div>
         </section>
