@@ -13,4 +13,4 @@ RewriteRule ^ https://jnetto23.github.io/%awax-clone/index.html [L,R=301]
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_URI}::$1 ^(/.+)/(.*)::\2$
-RewriteRule ^(.*)$ index.html?url=$1 [QSA,L] 
+RewriteRule ^(.*)$ /awax-clone/index.html?url=$1 [QSA,L] 
