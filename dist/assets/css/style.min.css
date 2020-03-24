@@ -20,7 +20,7 @@
 .navbar-nav{list-style:none;display:flex;flex-direction:column;height:inherit;padding:60px 10px 10px 10px}
 .nav-item{height:40px;margin:5px 5px}.nav-link{color:#ccc;text-transform:uppercase;font-weight:600;padding-left:10px;padding-right:10px;height:100%;display:flex;align-items:center;border-bottom:5px solid transparent}
 .nav-item.active a,.nav-item .nav-link:hover{border-bottom:5px solid #b28756;color:#fff}
-main .banner{height:100vh;margin-top:-80px;background-color:#333;background-image:url("../img/bg.jpg");background-size:cover;background-position:bottom;background-repeat:no-repeat}
+main .banner{height:100vh;margin-top:-80px;background-color:#333;background-image:url("../img/bg.webp");background-size:cover;background-position:bottom;background-repeat:no-repeat}
 #carousel .carousel-inner,#carousel .carousel-inner .carousel-item{width:100%}#carousel .carousel-inner .carousel-item{background-color:rgba(0,0,0,0.8)}
 #carousel .carousel-indicators{position:absolute;height:30px;margin-top:-65px}.carousel.slide{height:100%;overflow:hidden}
 .carousel.slide .carousel-indicators{list-style:none;display:flex;justify-content:center;align-items:center;width:100%}
@@ -45,11 +45,11 @@ main .banner{height:100vh;margin-top:-80px;background-color:#333;background-imag
 #our-projects .filter li{cursor:pointer;height:auto;text-transform:uppercase;padding:0 10px;margin:0 !important;border-right:1px solid #ccc}
 #our-projects .filter li:last-child{border-right:0}#our-projects .filter li span{display:block;color:#333;font-size:10px;border-top:3px solid transparent;border-bottom:3px solid transparent}
 #our-projects .filter li.active span,#our-projects .filter li:hover span{border-bottom:3px solid #b28756}
-#our-projects .projects{flex-wrap:wrap;margin:20px 0}#our-projects .projects .card{width:230px;height:160px;margin:8px}
+#our-projects .projects{flex-wrap:wrap;margin:20px 0}#our-projects .projects .card{width:230px;height:144px;margin:8px}
 #our-projects .projects .card .desc{display:none;width:inherit;height:inherit;padding:10px;position:absolute;background-color:rgba(0,0,0,0.8)}
 #our-projects .projects .card:hover .desc{display:flex !important}#our-projects .projects .card .desc h5{font-size:16px;margin-bottom:5px;color:#fff}
 #our-projects .projects .card .desc span{text-align:center;color:#ccc}#our-projects .projects .card img{width:inherit;height:inherit}
-#our-team{background-blend-mode:color;background-color:rgba(0,0,0,0.8) !important;background-image:url("../../media/foto4.jpg");background-position-y:top;background-repeat:no-repeat;background-size:cover}
+#our-team{background-blend-mode:color;background-color:rgba(0,0,0,0.8) !important;background-image:url("../../media/foto4.webp");background-position-y:top;background-repeat:no-repeat;background-size:cover}
 #carousel-team .carousel-inner,#carousel-happy-clients .carousel-inner{display:flex;justify-content:center;align-items:center}
 #carousel-happy-clients .carousel-inner{flex-wrap:wrap}#carousel-team .carousel-item{margin-left:10px;margin-right:10px;margin-bottom:20px}
 #our-team .card{color:#000;background-color:#fff;width:250px;display:flex;flex-direction:column;align-items:center;margin:auto;padding:30px;border-radius:5px}
@@ -81,7 +81,7 @@ main .banner{height:100vh;margin-top:-80px;background-color:#333;background-imag
 .btns-contact div .c-sn .pinterest{background-color:#e6001a}form .form-row{min-width:300px;width:100%;max-width:300px;display:flex;justify-content:center;flex-wrap:wrap}
 form .form-row input,form .form-row textarea{width:100%;margin:0 0 30px;padding:10px;border:0;border-bottom:2px solid #ccc;background-color:transparent;outline:0}
 form input:focus,form textarea:focus{border-bottom:2px solid #b28756}form input::placeholder,form textarea::placeholder{font-size:10px;text-transform:uppercase;color:#aaa}
-form button{border:0;cursor:pointer}#map{background-image:url("../img/mapa.jpg");background-repeat:no-repeat;background-size:cover}
+form button{border:0;cursor:pointer}#map{background-image:url("../img/mapa.webp");background-repeat:no-repeat;background-size:cover}
 #map .card{background-color:#fff;width:fit-content;padding:25px;border-radius:10px;display:flex;flex-direction:column;justify-content:center;margin:auto;box-shadow:0 2px 20px #ccc}
 #map .card .info{display:flex;align-items:center;margin-bottom:15px}#map .card .info .icon{width:40px;height:40px;display:flex;justify-content:center;align-items:center;margin-right:20px}
 #map .card .info .icon img{margin:10px;width:20px}#footer .section-body{display:flex;flex-direction:column-reverse;align-items:center;text-align:center}

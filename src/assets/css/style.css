@@ -189,7 +189,7 @@ main .banner {
   height: 100vh;
   margin-top: -80px;
   background-color: #333;
-  background-image: url("../img/bg.jpg");
+  background-image: url("../img/bg.webp");
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
@@ -396,7 +396,7 @@ main .banner {
 }
 #our-projects .projects .card {
   width: 230px;
-  height: 160px;
+  height: 144px;
   margin: 8px;
 }
 #our-projects .projects .card .desc {
@@ -429,7 +429,7 @@ main .banner {
 #our-team {
   background-blend-mode: color;
   background-color: rgba(0, 0, 0, 0.8) !important;
-  background-image: url("../../media/foto4.jpg");
+  background-image: url("../../media/foto4.webp");
   background-position-y: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -705,7 +705,7 @@ form button {
   cursor: pointer;
 }
 #map {
-  background-image: url("../img/mapa.jpg");
+  background-image: url("../img/mapa.webp");
   background-repeat: no-repeat;
   background-size: cover;
 }

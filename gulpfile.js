@@ -5,9 +5,9 @@ const webpackStream = require("webpack-stream");
 const minifyHTML = require("gulp-htmlmin");
 const minifyCSS = require("gulp-uglifycss");
 const image = require("gulp-image");
+const webp = require("gulp-webp");
 const sass = require("gulp-sass");
 const sourcemaps = require("gulp-sourcemaps");
-const livereload = require("gulp-livereload");
 
 sass.compiler = require("node-sass");
 
@@ -53,24 +53,20 @@ function convertSass() {
 }
 
 function optimizeImg() {
-  return src([
-    "src/assets/img/*.png",
-    "src/assets/img/*.jpg",
-    "src/assets/img/*.svg",
-    "src/assets/img/*.webp"
-  ])
+  return src(["src/assets/img/*.png", "src/assets/img/*.jpg"])
     .pipe(image())
+    .pipe(webp())
     .pipe(dest("dist/assets/img/"));
 }
 
 function optimizeMedia() {
-  return src(["src/media/*.png", "src/media/*.jpg", "src/media/*.webp"])
+  return src(["src/media/*.png", "src/media/*.jpg"])
     .pipe(image())
+    .pipe(webp())
     .pipe(dest("dist/media/"));
 }
 
 exports.default = () => {
-  livereload.listen({ start: true });
   watch("src/*.html", { ignoreInitial: false }, html);
   watch("src/assets/scss/*.scss", { ignoreInitial: false }, convertSass);
   watch("src/assets/css/*.css", { ignoreInitial: false }, css);
