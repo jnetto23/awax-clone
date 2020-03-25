@@ -9,7 +9,7 @@
 .align-self-start{align-self:flex-start !important}.align-self-center{align-self:center !important}
 .align-self-end{align-self:flex-end !important}.flex-wrap{flex-wrap:wrap !important;flex-flow:row wrap}
 .flex-1{flex:1 !important}.text-start{text-align:start !important}.text-center{text-align:center !important}
-.text-end{text-align:end !important}.text-justify{text-align:justify !important}.btn{width:fit-content;display:inline-block;text-transform:uppercase;font-size:12px;font-weight:600;padding:10px 30px;border-radius:20px}
+.text-end{text-align:end !important}.text-justify{text-align:justify !important}.btn{width:table;width:-moz-fit-content;width:fit-content;display:inline-block;text-transform:uppercase;font-size:12px;font-weight:600;padding:10px 30px;border-radius:20px}
 .btn-primary{background-color:#b28756;color:#fff}.h5{text-transform:uppercase;font-size:15px;margin-bottom:5px}
 .mb-1{margin-bottom:10px !important}.mb-2{margin-bottom:20px !important}.mr-auto{margin-right:auto !important}
 .ml-auto{margin-left:auto !important}.m-auto{margin:auto !important}.nav{height:80px}
@@ -85,7 +85,7 @@ main .banner{height:100vh;margin-top:-80px;background-color:#333;background-imag
 form .form-row input,form .form-row textarea{width:100%;margin:0 0 30px;padding:10px;border:0;border-bottom:2px solid #ccc;background-color:transparent;outline:0}
 form input:focus,form textarea:focus{border-bottom:2px solid #b28756}form input::placeholder,form textarea::placeholder{font-size:10px;text-transform:uppercase;color:#aaa}
 form button{border:0;cursor:pointer}#map{background-image:url("../img/mapa.jpg");background-repeat:no-repeat;background-size:cover}
-#map .card{background-color:#fff;width:fit-content;padding:25px;border-radius:10px;display:flex;display:-ms-flexbox;flex-direction:column;justify-content:center;margin:auto;box-shadow:0 2px 20px #ccc}
+#map .card{background-color:#fff;width:-moz-fit-content;width:fit-content;padding:25px;border-radius:10px;display:table;display:flex;display:-ms-flexbox;flex-direction:column;justify-content:center;margin:auto;box-shadow:0 2px 20px #ccc}
 #map .card .info{display:flex;display:-ms-flexbox;align-items:center;margin-bottom:15px}
 #map .card .info .icon{width:40px;height:40px;display:flex;display:-ms-flexbox;justify-content:center;align-items:center;margin-right:20px}
 #map .card .info .icon img{margin:10px;width:20px}#footer .section-body{display:flex;display:-ms-flexbox;flex-direction:column-reverse;align-items:center;text-align:center}
@@ -104,6 +104,4 @@ form .form-row input,form .form-row textarea{margin:0 5px 30px}#map .card{margin
 #footer .section-body{flex-direction:row}}@media(min-width:1200px){.navbar-brand{margin:10px auto 0}
 .navbar-toggler{display:none !important}.navbar-collapse{display:block;background-color:transparent;width:initial;max-width:initial;position:relative}
 .navbar-nav{flex-direction:row;padding:0 10px}.nav-item{height:auto}.nav-link{text-align:center}
-}@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){#our-team::after{content:"";background-color:transparentize(#000,0.8);position:absolute;top:0;bottom:0;width:100%}
-}@supports(-ms-ime-align:auto){#our-team::after{content:"";background-color:transparentize(#000,0.8);position:absolute;top:0;bottom:0;width:100%}
 }

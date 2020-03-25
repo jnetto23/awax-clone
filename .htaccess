@@ -5,9 +5,9 @@ RewriteEngine On
 # RewriteRule ^ https://$1%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 
 # ROUTER HTTPS Redirect
-# RewriteCond %{HTTP:X-Forwarded-Proto} !https
-# RewriteCond %{HTTPS} off
-# RewriteRule ^ https://awax.fyyb.com.br/index.html [L,R=301]
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteCond %{HTTPS} off
+RewriteRule ^ https://awax.fyyb.com.br/index.html [L,R=301]
 
 # ROUTER URL Rewrite
 RewriteCond %{REQUEST_FILENAME} !-d
