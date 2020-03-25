@@ -7,13 +7,13 @@
 .justify-content-end{justify-content:flex-end !important}.align-items-start{align-items:flex-start !important}
 .align-items-center{align-items:center !important}.align-items-end{align-items:flex-end !important}
 .align-self-start{align-self:flex-start !important}.align-self-center{align-self:center !important}
-.align-self-end{align-self:flex-end !important}.flex-wrap{flex-wrap:wrap !important;-ms-flex-flow:row wrap}
+.align-self-end{align-self:flex-end !important}.flex-wrap{flex-wrap:wrap !important;flex-flow:row wrap}
 .flex-1{flex:1 !important}.text-start{text-align:start !important}.text-center{text-align:center !important}
 .text-end{text-align:end !important}.text-justify{text-align:justify !important}.btn{width:fit-content;display:inline-block;text-transform:uppercase;font-size:12px;font-weight:600;padding:10px 30px;border-radius:20px}
 .btn-primary{background-color:#b28756;color:#fff}.h5{text-transform:uppercase;font-size:15px;margin-bottom:5px}
 .mb-1{margin-bottom:10px !important}.mb-2{margin-bottom:20px !important}.mr-auto{margin-right:auto !important}
 .ml-auto{margin-left:auto !important}.m-auto{margin:auto !important}.nav{height:80px}
-.navbar{width:100%;display:flex;justify-content:flex-start;align-items:center;flex-wrap:wrap;-ms-flex-flow:row wrap}
+.navbar{width:100%;display:flex;justify-content:flex-start;align-items:center;flex-wrap:wrap;flex-flow:row wrap}
 .navbar-brand{margin:auto 10px}.navbar-brand{width:100px}.navbar-brand img{width:100px;height:auto}
 .navbar-toggler{padding:0 10px;margin-left:auto;background-color:transparent !important;border:0;outline:0;cursor:pointer;z-index:999}
 .navbar-collapse{display:none;width:calc(100% / 3 * 2);max-width:300px;position:absolute;top:0;right:0;background-color:rgba(0,0,0,0.9);z-index:2}
