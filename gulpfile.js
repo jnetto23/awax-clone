@@ -55,11 +55,23 @@ function convertSass() {
 function optimizeImg() {
   return src(["src/assets/img/*.png", "src/assets/img/*.jpg"])
     .pipe(image())
-    .pipe(webp())
     .pipe(dest("dist/assets/img/"));
 }
 
 function optimizeMedia() {
+  return src(["src/media/*.png", "src/media/*.jpg"])
+    .pipe(image())
+    .pipe(dest("dist/media/"));
+}
+
+function optimizeImgWebp() {
+  return src(["src/assets/img/*.png", "src/assets/img/*.jpg"])
+    .pipe(image())
+    .pipe(webp())
+    .pipe(dest("dist/assets/img/"));
+}
+
+function optimizeMediaWebp() {
   return src(["src/media/*.png", "src/media/*.jpg"])
     .pipe(image())
     .pipe(webp())
@@ -73,4 +85,6 @@ exports.default = () => {
   watch("src/assets/js/*.js", { ignoreInitial: false }, js);
   watch("src/assets/img/**", { ignoreInitial: false }, optimizeImg);
   watch("src/media/**", { ignoreInitial: false }, optimizeMedia);
+  watch("src/assets/img/**", { ignoreInitial: false }, optimizeImgWebp);
+  watch("src/media/**", { ignoreInitial: false }, optimizeMediaWebp);
 };

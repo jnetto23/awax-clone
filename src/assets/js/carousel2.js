@@ -85,10 +85,18 @@ export default class Carousel {
     let b =
       parseFloat(getComputedStyle(this._carousel).borderLeft) +
       parseFloat(getComputedStyle(this._carousel).borderRight);
+
     let p =
       parseFloat(getComputedStyle(this._carousel).paddingLeft) +
       parseFloat(getComputedStyle(this._carousel).paddingRight);
+
     let w = parseFloat(getComputedStyle(this._carousel).width);
+
+    // IE, Edge, Safari
+    if (isNaN(b)) b = 0;
+    if (isNaN(p)) p = 0;
+    if (isNaN(w)) w = 0;
+
     return (w - (b + p)) / n;
   }
 

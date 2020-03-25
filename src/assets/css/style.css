@@ -33,6 +33,7 @@ body {
 }
 .d-flex {
   display: flex !important;
+  display: -ms-flexbox;
 }
 .flex-row {
   flex-direction: row !important;
@@ -69,6 +70,7 @@ body {
 }
 .flex-wrap {
   flex-wrap: wrap !important;
+  -ms-flex-flow: row wrap;
 }
 .flex-1 {
   flex: 1 !important;
@@ -124,9 +126,11 @@ body {
 .navbar {
   width: 100%;
   display: flex;
+
   justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
+  -ms-flex-flow: row wrap;
 }
 .navbar-brand {
   margin: auto 10px;
@@ -160,6 +164,7 @@ body {
 .navbar-nav {
   list-style: none;
   display: flex;
+  display: -ms-flexbox;
   flex-direction: column;
   height: inherit;
   padding: 60px 10px 10px 10px;
@@ -176,6 +181,7 @@ body {
   padding-right: 10px;
   height: 100%;
   display: flex;
+  display: -ms-flexbox;
   align-items: center;
   border-bottom: 5px solid transparent;
 }
@@ -189,7 +195,7 @@ main .banner {
   height: 100vh;
   margin-top: -80px;
   background-color: #333;
-  background-image: url("../img/bg.webp");
+  background-image: url("../img/bg.jpg");
   background-size: cover;
   background-position: bottom;
   background-repeat: no-repeat;
@@ -214,6 +220,7 @@ main .banner {
 .carousel.slide .carousel-indicators {
   list-style: none;
   display: flex;
+  display: -ms-flexbox;
   justify-content: center;
   align-items: center;
   width: 100%;
@@ -245,6 +252,7 @@ main .banner {
 .carousel.slide .carousel-inner .carousel-item .slider-area {
   height: 100%;
   display: flex;
+  display: -ms-flexbox;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -313,6 +321,7 @@ main .banner {
 /* About - Start */
 #about-us .section-body {
   display: flex;
+  display: -ms-flexbox;
   flex-direction: column-reverse;
   align-items: center;
 }
@@ -334,6 +343,7 @@ main .banner {
 /* Services - Start */
 #services .section-body {
   display: flex;
+  display: -ms-flexbox;
   /* flex-direction: column; */
   flex-wrap: wrap;
 }
@@ -360,6 +370,7 @@ main .banner {
 }
 #our-projects .filter ul {
   display: flex;
+  display: -ms-flexbox;
   flex-direction: row;
   background-color: #eee;
   border-radius: 30px;
@@ -409,6 +420,7 @@ main .banner {
 }
 #our-projects .projects .card:hover .desc {
   display: flex !important;
+  display: -ms-flexbox !important;
 }
 #our-projects .projects .card .desc h5 {
   font-size: 16px;
@@ -429,7 +441,7 @@ main .banner {
 #our-team {
   background-blend-mode: color;
   background-color: rgba(0, 0, 0, 0.8) !important;
-  background-image: url("../../media/foto4.webp");
+  background-image: url("../../media/foto4.jpg");
   background-position-y: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -437,6 +449,7 @@ main .banner {
 #carousel-team .carousel-inner,
 #carousel-happy-clients .carousel-inner {
   display: flex;
+  display: -ms-flexbox;
   justify-content: center;
   align-items: center;
 }
@@ -453,6 +466,7 @@ main .banner {
   background-color: #fff;
   width: 250px;
   display: flex;
+  display: -ms-flexbox;
   flex-direction: column;
   align-items: center;
   margin: auto;
@@ -482,6 +496,7 @@ main .banner {
 }
 #our-team .c-sn {
   display: flex;
+  display: -ms-flexbox;
   justify-content: center;
   align-items: center;
 }
@@ -492,6 +507,7 @@ main .banner {
   max-width: 600px;
   width: 100%;
   display: flex;
+  display: -ms-flexbox;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -514,6 +530,7 @@ main .banner {
 #clients > div > div .brand {
   margin: 0 15px;
   display: flex;
+  display: -ms-flexbox;
   justify-content: center;
   align-items: center;
 }
@@ -548,6 +565,7 @@ main .banner {
 }
 #price .card .desc {
   display: flex;
+  display: -ms-flexbox;
   flex-direction: column;
   margin: 15px auto;
   font-size: 10px;
@@ -571,6 +589,7 @@ main .banner {
 /* Premium - Start */
 #premium .section-body {
   display: flex;
+  display: -ms-flexbox;
   flex-wrap: wrap;
 }
 #premium .box-img,
@@ -626,6 +645,7 @@ main .banner {
 /* SN Contact - Start */
 .btns-contact {
   display: flex;
+  display: -ms-flexbox;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
@@ -634,17 +654,20 @@ main .banner {
 }
 .btns-contact .info {
   display: flex;
+  display: -ms-flexbox;
   justify-content: center;
   align-items: center;
   margin-bottom: 10px;
 }
 .btns-contact .btns-card {
   display: flex;
+  display: -ms-flexbox;
   justify-content: center;
   align-items: center;
 }
 .btns-contact .btn-card {
   display: flex;
+  display: -ms-flexbox;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
@@ -677,6 +700,7 @@ form .form-row {
   width: 100%;
   max-width: 300px;
   display: flex;
+  display: -ms-flexbox;
   justify-content: center;
   flex-wrap: wrap;
 }
@@ -705,7 +729,7 @@ form button {
   cursor: pointer;
 }
 #map {
-  background-image: url("../img/mapa.webp");
+  background-image: url("../img/mapa.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -715,6 +739,7 @@ form button {
   padding: 25px;
   border-radius: 10px;
   display: flex;
+  display: -ms-flexbox;
   flex-direction: column;
   justify-content: center;
   margin: auto;
@@ -722,6 +747,7 @@ form button {
 }
 #map .card .info {
   display: flex;
+  display: -ms-flexbox;
   align-items: center;
   margin-bottom: 15px;
 }
@@ -729,6 +755,7 @@ form button {
   width: 40px;
   height: 40px;
   display: flex;
+  display: -ms-flexbox;
   justify-content: center;
   align-items: center;
   margin-right: 20px;
@@ -739,6 +766,7 @@ form button {
 }
 #footer .section-body {
   display: flex;
+  display: -ms-flexbox;
   flex-direction: column-reverse;
   align-items: center;
   text-align: center;
@@ -746,6 +774,7 @@ form button {
 #footer .section-body .flex-1 {
   margin-bottom: 30px;
   display: flex;
+  display: -ms-flexbox;
   justify-content: center;
   align-items: center;
 }
@@ -764,12 +793,14 @@ form button {
 }
 #footer .section-body .c-sn {
   display: flex;
+  display: -ms-flexbox;
   margin-bottom: 20px;
 }
 .btn-sn {
   width: 25px;
   height: 25px;
   display: flex;
+  display: -ms-flexbox;
   justify-content: center;
   align-items: center;
   padding: 6px;
@@ -871,5 +902,28 @@ form button {
   }
   .nav-link {
     text-align: center;
+  }
+}
+
+/* the fallback for IE 10, 11 and Edge. */
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  #our-team::after {
+    content: "";
+    background-color: transparentize(#000, 0.8);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+  }
+}
+
+@supports (-ms-ime-align: auto) {
+  #our-team::after {
+    content: "";
+    background-color: transparentize(#000, 0.8);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
   }
 }
