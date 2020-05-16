@@ -908,3 +908,14 @@ form button {
     text-align: center;
   }
 }
+
+#footer {
+  padding-bottom: 15px;
+}
+.copyright {
+  text-align: center;
+  padding: 10px 0;
+}
+.copyright a {
+  color: #fff;
+}
