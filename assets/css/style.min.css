@@ -104,4 +104,4 @@ form .form-row input,form .form-row textarea{margin:0 5px 30px}#map .card{margin
 #footer .section-body{flex-direction:row}}@media(min-width:1200px){.navbar-brand{margin:10px auto 0}
 .navbar-toggler{display:none !important}.navbar-collapse{display:block;background-color:transparent;width:initial;max-width:initial;position:relative}
 .navbar-nav{flex-direction:row;padding:0 10px}.nav-item{height:auto}.nav-link{text-align:center}
-}
+}#footer{padding-bottom:15px}.copyright{text-align:center;padding:10px 0}.copyright a{color:#fff}
