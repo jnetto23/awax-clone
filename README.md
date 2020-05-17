@@ -9,7 +9,7 @@ Onepage website development based on the proposed layout (./layout/)
  - CSS: Mobile first standard, use of Flexbox and media queries;  
  - JS: ES6 modules  
 
-[Final Project](https://jnetto23.github.io/awax-clone/)  
+[Final Project](https://fyyb.com.br/preview/awax/)  
 
 
 <img src="https://github.com/jnetto23/awax-clone/blob/master/screenshots/awax-clone.png" width="100%" height="auto"/>
