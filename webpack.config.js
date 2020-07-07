@@ -1,7 +1,10 @@
+const argv = require("yargs").argv;
+const mode = argv.production ? "production" : "development";
+
 module.exports = {
-  mode: "production",
+  mode,
   output: {
-    filename: "bundle.min.js"
+    filename: "bundle.js",
   },
   module: {
     rules: [
@@ -9,9 +12,9 @@ module.exports = {
         test: /\.js$/,
         exclude: /node_modules/,
         use: {
-          loader: "babel-loader"
-        }
-      }
-    ]
-  }
+          loader: "babel-loader",
+        },
+      },
+    ],
+  },
 };

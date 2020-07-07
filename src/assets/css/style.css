@@ -157,9 +157,10 @@ body {
   display: none;
   width: calc(100% / 3 * 2);
   max-width: 300px;
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
+  bottom: 0;
   background-color: rgba(0, 0, 0, 0.9);
   z-index: 2;
 }
@@ -443,7 +444,7 @@ main .banner {
 #our-team {
   background-blend-mode: color;
   background-color: rgba(0, 0, 0, 0.8) !important;
-  background-image: url("../../media/foto4.jpg");
+  background-image: url("../../media/background/foto4.jpg");
   background-position-y: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -918,4 +919,46 @@ form button {
 }
 .copyright a {
   color: #fff;
+}
+
+button.navbar-toggler.collapse-open[data-target="#menu"] {
+  position: fixed;
+  right: 15px;
+}
+
+#back-to-top {
+  display: none;
+  opacity: 0.5;
+}
+
+#back-to-top:hover {
+  opacity: 1;
+}
+
+#back-to-top button {
+  width: 50px;
+  height: 50px;
+  line-height: 30px;
+  padding: 10px;
+  border: none;
+  border-radius: 50%;
+
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+
+  color: #fff;
+  background-color: #b28756;
+  font-weight: bold;
+  font-size: 30px;
+
+  -moz-transform: rotate(270deg);
+  -webkit-transform: rotate(270deg);
+  -o-transform: rotate(270deg);
+  -ms-transform: rotate(270deg);
+  transform: rotate(270deg);
+  text-align: center;
+  font-size: 30px;
+
+  cursor: pointer;
 }
